@@ -1,1 +1,114 @@
 import /vendor/etc/init/hw/init.mt6833.common.rc
+
+on init
+    symlink /dev/block/platform/bootdevice /dev/block/bootdevice
+
+    # update cpus for cpuset cgroup
+    write /dev/cpuset/background/cpus 0-3
+
+# lcd feature ++ start
+on property:odm.display_hbm=0
+    write /sys/class/leds/lcd-backlight/hbm 0
+on property:odm.display_hbm=1
+    write /sys/class/leds/lcd-backlight/hbm 1
+on property:odm.display_hbm=2
+    write /sys/class/leds/lcd-backlight/hbm 2
+on property:odm.display_hbm=3
+    write /sys/class/leds/lcd-backlight/hbm 3
+
+on charger
+    start mi_thermald
+
+on property:ro.factory_mode=1 && property:sys.boot_completed=1
+    chown system system /data/local/tmp
+    chmod 0777 /data/local/tmp
+    chmod 0666 /dev/block/sdc9
+
+on post-fs-data
+    write /proc/sys/vm/dirty_background_ratio 5
+    write /proc/sys/vm/dirty_expire_centisecs 200
+
+    # Camera
+    mkdir /mnt/vendor/persist/camera
+    chown system system /mnt/vendor/persist/camera
+    chmod 0777 /mnt/vendor/persist/camera
+    chmod 0644 /mnt/vendor/persist/camera/rear_dc_cal_wu.bin
+    restorecon_recursive /mnt/vendor/persist/camera
+
+    mkdir /mnt/vendor/persist/camera/ 0777 system camera
+    mkdir /data/vendor/camera/ 0777 system camera
+    # for intsense bokeh use
+    mkdir /data/vendor/camera/model 0777 system camera
+    mkdir /data/vendor/camera/model/dof_model 0777 system camera
+    mkdir /data/vendor/camera/model/rt_model 0777 system camera
+    copy /vendor/etc/camera/model/dof_model/capture_cache /data/vendor/camera/model/dof_model/capture_cache
+    copy /vendor/etc/camera/model/dof_model/capture_model /data/vendor/camera/model/dof_model/capture_model
+    copy /vendor/etc/camera/model/dof_model/capture_policy /data/vendor/camera/model/dof_model/capture_policy
+    copy /vendor/etc/camera/model/rt_model/preview_cache /data/vendor/camera/model/rt_model/preview_cache
+    copy /vendor/etc/camera/model/rt_model/preview_model /data/vendor/camera/model/rt_model/preview_model
+    copy /vendor/etc/camera/model/rt_model/preview_policy /data/vendor/camera/model/rt_model/preview_policy
+    copy /mnt/vendor/persist/camera/rear_dc_cal_wu.bin /data/vendor/camera/rear_dc_cal_wu.bin
+    chmod 0777 /data/vendor/camera/model/dof_model/capture_cache
+    chmod 0777 /data/vendor/camera/model/dof_model/capture_model
+    chmod 0777 /data/vendor/camera/model/dof_model/capture_policy
+    chmod 0777 /data/vendor/camera/model/rt_model/preview_cache
+    chmod 0777 /data/vendor/camera/model/rt_model/preview_model
+    chmod 0777 /data/vendor/camera/model/rt_model/preview_policy
+    chmod 0666 /data/vendor/camera/rear_dc_cal_wu.bin
+    # for mibokeh use
+    mkdir /data/vendor/camera/mibokeh 0776 system camera
+
+    #mishow
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0777 /sys/class/power_supply/battery/input_suspend
+
+    # Create persist mount point to persist
+    mkdir /mnt/vendor/persist
+    chown system system /mnt/vendor/persist
+    chmod 0771 /mnt/vendor/persist
+    restorecon_recursive /mnt/vendor/persist
+
+    # Create mac_addr mount point
+    mkdir /data/vendor/mac_addr
+    chown root system /data/vendor/mac_addr
+    chmod 0744 /data/vendor/mac_addr
+
+    # Haptics
+    mkdir /mnt/vendor/persist/haptics 0755 system system
+
+    # CIT
+    mkdir /data/vendor/cit 0770 system system
+
+    # for battery charging off if CALL_STATE_OFFHOOK
+    chown system system /sys/class/power_supply/battery/charging_call_state
+    chmod 0660 /sys/class/power_supply/battery/charging_call_state
+
+on boot
+    # HBM
+    chmod 0664 /sys/class/leds/lcd-backlight/hbm
+    chown system system /sys/class/leds/lcd-backlight/hbm
+
+    chown system system /sys/devices/system/cpu/cpufreq/policy4/scaling_governor
+    chmod 0660 /sys/devices/system/cpu/cpufreq/policy4/scaling_governor
+
+    # Thermal
+    chown system system /sys/class/thermal/thermal_message/sconfig
+
+on property:sys.boot_completed=1
+    write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor "schedplus"
+    write /sys/devices/system/cpu/cpufreq/policy4/scaling_governor "schedplus"
+
+# Touch
+on property:sys.tp.grip_enable=0
+    write /proc/nvt_edge_reject_switch 1
+on property:sys.tp.grip_enable=90
+    write /proc/nvt_edge_reject_switch 3
+on property:sys.tp.grip_enable=270
+    write /proc/nvt_edge_reject_switch 2
+
+service charger /system/bin/charger
+    class charger
+    critical
+    #seclabel u:r:charger:s0
+    group system graphics
+    seclabel u:r:healthd:s0
