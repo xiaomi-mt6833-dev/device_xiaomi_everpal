@@ -1,2 +1,7 @@
 <manifest version="5.0" type="device" target-level="5">
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.pq</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.13::IPictureQuality/default</fqname>
+    </hal>
 </manifest>
