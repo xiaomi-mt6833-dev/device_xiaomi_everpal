@@ -61,6 +61,22 @@ vendor/lib64/egl/libMEOW_trace.so
 -vendor/bin/volte_rcs_ua
 -vendor/lib/librcs_volte_core.so
 
+# Media
+-vendor/bin/vpud
+-vendor/lib/AVCSecureVdecCA.so
+-vendor/lib/HEVCSecureVdecCA.so
+-vendor/lib/VP9SecureVdecCA.so
+-vendor/lib/libMtkOmxAlacDec.so
+-vendor/lib/libcodec2_mtk_c2store.so
+-vendor/lib/libcodec2_mtk_vdec.so
+-vendor/lib/libcodec2_mtk_venc.so
+-vendor/lib/libcodec2_vpp_qt_plugin.so
+-vendor/lib/libcodec2_vpp_rs_plugin.so
+-vendor/lib/libformatter.so
+-vendor/lib/libvcodec_utility.so
+-vendor/lib/libvcodecdrv.so
+-vendor/lib/libvpud_vcodec.so
+
 # NVRAM
 -vendor/bin/fuelgauged_nvram
 -vendor/bin/nvram_daemon
