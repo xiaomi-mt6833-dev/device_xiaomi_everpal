@@ -55,3 +55,28 @@ vendor/lib64/egl/libMEOW_trace.so
 -vendor/lib64/mt6833/libaiselector.so:vendor/lib64/libaiselector.so
 -vendor/lib64/mt6833/libdpframework.so:vendor/lib64/libdpframework.so
 -vendor/lib64/mt6833/libpq_prot.so:vendor/lib64/libpq_prot.so
+
+# TEE
+-vendor/bin/teei_daemon
+vendor/etc/init/microtrust.rc
+-vendor/lib64/libTEECommon.so
+
+# TEE (TA)
+vendor/thh/ta/020f0000000000000000000000000000.ta
+vendor/thh/ta/05120000000000000000000000000000.ta
+vendor/thh/ta/06090000000000000000000000000000.ta
+vendor/thh/ta/08030000000000000000000000000000.ta
+vendor/thh/ta/08040000000000000000000000003419.ta
+vendor/thh/ta/08050000000000000000000000003419.ta
+vendor/thh/ta/08110000000000000000000000000000.ta
+vendor/thh/ta/40188311faf343488db888ad39496f9a.ta
+vendor/thh/ta/5020170115e016302017012521300000.ta
+vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
+vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
+vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
+vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
+vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
+vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
+vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
