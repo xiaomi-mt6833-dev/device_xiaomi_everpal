@@ -167,6 +167,17 @@ vendor/lib64/egl/libMEOW_trace.so
 -vendor/lib64/libnvram.so
 -vendor/lib64/libnvram_sec.so
 
+# Sensors
+vendor/etc/elliptic_sensor.xml
+-vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
+-vendor/lib64/hw/sensors.elliptic.so
+-vendor/lib64/hw/sensors.mt6833.so
+-vendor/lib64/libhfmanager.so
+-vendor/lib64/libhwm.so
+-vendor/lib64/libksensor.so
+-vendor/lib64/libnotifyaudiohal.so
+-vendor/lib64/libsensor_custom.so
+
 # TEE
 -vendor/bin/teei_daemon
 vendor/etc/init/microtrust.rc
