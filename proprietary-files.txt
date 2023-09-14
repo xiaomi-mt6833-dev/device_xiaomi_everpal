@@ -849,3 +849,9 @@ vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 -vendor/lib/libmtcloader.so
 -vendor/lib64/libmtcloader.so
+
+# Touchscreen
+vendor/etc/firmware/novatek_ts_ct_fw.bin:vendor/firmware/novatek_ts_ct_fw.bin
+vendor/etc/firmware/novatek_ts_ct_mp.bin:vendor/firmware/novatek_ts_ct_mp.bin
+vendor/etc/firmware/novatek_ts_fw.bin:vendor/firmware/novatek_ts_fw.bin
+vendor/etc/firmware/novatek_ts_mp.bin:vendor/firmware/novatek_ts_mp.bin
