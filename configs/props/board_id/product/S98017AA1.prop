@@ -1,0 +1,9 @@
+#
+# evergreen specific properties
+#
+
+ro.product.product.brand=POCO
+ro.product.product.device=evergreen
+ro.product.product.marketname=POCO M4 Pro 5G
+ro.product.product.model=21091116AG
+ro.product.product.fingerprint=POCO/evergreen/evergreen:12/SP1A.210812.016/V14.0.2.0.TGLMIXM:user/release-keys

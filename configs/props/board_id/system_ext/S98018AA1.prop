@@ -1,0 +1,8 @@
+#
+# opal specific properties
+#
+
+ro.product.system_ext.device=opal
+ro.product.system_ext.marketname=Redmi Note 11S 5G
+ro.product.system_ext.model=22031116BG
+ro.product.system_ext.fingerprint=Redmi/opal/opal:12/SP1A.210812.016/V14.0.2.0.TGLMIXM:user/release-keys

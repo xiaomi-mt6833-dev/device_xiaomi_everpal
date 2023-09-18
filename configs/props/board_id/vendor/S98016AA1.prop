@@ -1,0 +1,8 @@
+#
+# evergo (cn) specific properties
+#
+
+ro.product.vendor.device=evergo
+ro.product.vendor.marketname=Redmi Note 11 5G
+ro.product.vendor.model=21091116AC
+ro.product.vendor.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.2.0.TGLMIXM:user/release-keys

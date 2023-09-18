@@ -1,0 +1,9 @@
+#
+# evergo (p_in) specific properties
+#
+
+ro.product.vendor.brand=POCO
+ro.product.vendor.device=evergo
+ro.product.vendor.marketname=POCO M4 Pro 5G
+ro.product.vendor.model=22031116AI
+ro.product.vendor.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.2.0.TGLMIXM:user/release-keys
