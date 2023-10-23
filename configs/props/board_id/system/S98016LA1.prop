@@ -3,7 +3,7 @@
 #
 
 ro.build.product=evergo
-ro.build.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.build.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
 
 ro.product.brand=POCO
 ro.product.device=evergo
@@ -14,4 +14,4 @@ ro.product.system.brand=POCO
 ro.product.system.device=evergo
 ro.product.system.marketname=POCO M4 Pro 5G
 ro.product.system.model=22031116AI
-ro.product.system.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.system.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys

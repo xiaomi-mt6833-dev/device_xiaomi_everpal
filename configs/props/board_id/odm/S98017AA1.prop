@@ -6,4 +6,4 @@ ro.product.odm.brand=POCO
 ro.product.odm.device=evergreen
 ro.product.odm.marketname=POCO M4 Pro 5G
 ro.product.odm.model=21091116AG
-ro.product.odm.fingerprint=POCO/evergreen/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.odm.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys

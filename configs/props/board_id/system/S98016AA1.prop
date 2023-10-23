@@ -3,7 +3,7 @@
 #
 
 ro.build.product=evergo
-ro.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
 
 ro.product.device=evergo
 ro.product.marketname=Redmi Note 11 5G
@@ -12,4 +12,4 @@ ro.product.model=21091116AC
 ro.product.system.device=evergo
 ro.product.system.marketname=Redmi Note 11 5G
 ro.product.system.model=21091116AC
-ro.product.system.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.system.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
