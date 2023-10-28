@@ -1,3 +1,4 @@
+import /vendor/etc/init/hw/init.stnfc.rc
 import /vendor/etc/init/hw/init.mt6833.common.rc
 
 on init

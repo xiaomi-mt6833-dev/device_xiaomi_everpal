@@ -575,6 +575,14 @@ vendor/lib64/egl/libMEOW_trace.so
 -vendor/lib/libvcodecdrv.so
 -vendor/lib/libvpud_vcodec.so
 
+# NFC
+-vendor/bin/hw/android.hardware.nfc@1.2-service-st
+vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/st21nfc_conf.txt
+vendor/firmware/st21nfc_fw7.bin
+-vendor/lib64/nfc_nci.st21nfc.st.so
+
 # NVRAM
 -vendor/bin/fuelgauged_nvram
 -vendor/bin/nvram_daemon
