@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_everpal.mk
+    $(LOCAL_DIR)/aosp_everpal.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_everpal-user \
-    lineage_everpal-userdebug \
-    lineage_everpal-eng
+    aosp_everpal-user \
+    aosp_everpal-userdebug \
+    aosp_everpal-eng
