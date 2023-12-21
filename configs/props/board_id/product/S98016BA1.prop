@@ -2,7 +2,15 @@
 # evergo (in) specific properties
 #
 
+# Build Info (Codename)
 ro.product.product.device=evergo
-ro.product.product.marketname=Redmi Note 11T 5G
-ro.product.product.model=21091116AI
+
+# Build Info (Fingerprint)
+ro.product.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.2.0.TGBINXM:user/release-keys
 ro.product.product.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.2.0.TGBINXM:user/release-keys
+
+# Build Info (Marketname)
+ro.product.product.marketname=Redmi Note 11T 5G
+
+# Build Info (Model)
+ro.product.product.model=21091116AI

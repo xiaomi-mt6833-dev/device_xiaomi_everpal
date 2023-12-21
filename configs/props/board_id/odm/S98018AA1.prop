@@ -2,7 +2,25 @@
 # opal specific properties
 #
 
+# Build Info (Codename)
 ro.product.odm.device=opal
-ro.product.odm.marketname=Redmi Note 11S 5G
-ro.product.odm.model=22031116BG
+ro.product.odm_dlkm.device=opal
+ro.product.vendor_dlkm.device=opal
+
+# Build Info (Fingerprint)
+ro.odm.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.odm_dlkm.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
 ro.product.odm.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.odm_dlkm.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.vendor_dlkm.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.vendor_dlkm.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+
+# Build Info (Marketname)
+ro.product.odm.marketname=Redmi Note 11S 5G
+ro.product.odm_dlkm.marketname=Redmi Note 11S 5G
+ro.product.vendor_dlkm.marketname=Redmi Note 11S 5G
+
+# Build Info (Model)
+ro.product.odm.model=22031116BG
+ro.product.odm_dlkm.model=22031116BG
+ro.product.vendor_dlkm.model=22031116BG

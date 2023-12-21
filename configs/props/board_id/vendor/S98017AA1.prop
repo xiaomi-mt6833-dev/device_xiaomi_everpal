@@ -2,11 +2,39 @@
 # evergreen specific properties
 #
 
+# Build Info (Brand)
+ro.product.brand=POCO
+ro.product.system.brand=POCO
+ro.product.system_ext.brand=POCO
 ro.product.vendor.brand=POCO
+
+# Build Info (Codename)
+ro.build.product=evergreen
+ro.product.device=evergreen
+ro.product.system.device=evergreen
+ro.product.system_ext.device=evergreen
 ro.product.vendor.device=evergreen
-ro.product.vendor.marketname=POCO M4 Pro 5G
-ro.product.vendor.model=21091116AG
+
+# Build Info (Fingerprint)
+ro.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.system.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.system_ext.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
 ro.product.vendor.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.system.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.system_ext.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.vendor.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+
+# Build Info (Marketname)
+ro.product.marketname=POCO M4 Pro 5G
+ro.product.system.marketname=POCO M4 Pro 5G
+ro.product.system_ext.marketname=POCO M4 Pro 5G
+ro.product.vendor.marketname=POCO M4 Pro 5G
+
+# Build Info (Model)
+ro.product.model=21091116AG
+ro.product.system.model=21091116AG
+ro.product.system_ext.model=21091116AG
+ro.product.vendor.model=21091116AG
 
 # NFC
 ro.boot.product.hardware.sku=nfc

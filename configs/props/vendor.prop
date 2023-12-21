@@ -1,2 +1,2 @@
 # Device specific properties
-import /vendor/etc/properties/${ro.boot.board_id}.prop
+import /vendor/etc/props/${ro.boot.board_id}.prop

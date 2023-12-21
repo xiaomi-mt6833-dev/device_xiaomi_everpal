@@ -2,8 +2,18 @@
 # evergo (p_in) specific properties
 #
 
+# Build Info (Brand)
 ro.product.product.brand=POCO
+
+# Build Info (Codename)
 ro.product.product.device=evergo
-ro.product.product.marketname=POCO M4 Pro 5G
-ro.product.product.model=22031116AI
+
+# Build Info (Fingerprint)
+ro.product.build.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
 ro.product.product.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+
+# Build Info (Marketname)
+ro.product.product.marketname=POCO M4 Pro 5G
+
+# Build Info (Model)
+ro.product.product.model=22031116AI
