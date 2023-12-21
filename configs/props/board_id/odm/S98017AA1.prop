@@ -2,8 +2,30 @@
 # evergreen specific properties
 #
 
+# Build Info (Brand)
 ro.product.odm.brand=POCO
+ro.product.odm_dlkm.brand=POCO
+ro.product.vendor_dlkm.brand=POCO
+
+# Build Info (Codename)
 ro.product.odm.device=evergreen
-ro.product.odm.marketname=POCO M4 Pro 5G
-ro.product.odm.model=21091116AG
+ro.product.odm_dlkm.device=evergreen
+ro.product.vendor_dlkm.device=evergreen
+
+# Build Info (Fingerprint)
+ro.odm.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.odm_dlkm.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
 ro.product.odm.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.odm_dlkm.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.vendor_dlkm.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.vendor_dlkm.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+
+# Build Info (Marketname)
+ro.product.odm.marketname=POCO M4 Pro 5G
+ro.product.odm_dlkm.marketname=POCO M4 Pro 5G
+ro.product.vendor_dlkm.marketname=POCO M4 Pro 5G
+
+# Build Info (Model)
+ro.product.odm.model=21091116AG
+ro.product.odm_dlkm.model=21091116AG
+ro.product.vendor_dlkm.model=21091116AG

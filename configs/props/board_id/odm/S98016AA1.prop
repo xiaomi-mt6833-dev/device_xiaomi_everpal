@@ -2,7 +2,25 @@
 # evergo (cn) specific properties
 #
 
+# Build Info (Codename)
 ro.product.odm.device=evergo
-ro.product.odm.marketname=Redmi Note 11 5G
-ro.product.odm.model=21091116AC
+ro.product.odm_dlkm.device=evergo
+ro.product.vendor_dlkm.device=evergo
+
+# Build Info (Fingerprint)
+ro.odm.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+ro.odm_dlkm.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
 ro.product.odm.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+ro.product.odm_dlkm.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+ro.product.vendor_dlkm.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+ro.vendor_dlkm.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+
+# Build Info (Marketname)
+ro.product.odm.marketname=Redmi Note 11 5G
+ro.product.odm_dlkm.marketname=Redmi Note 11 5G
+ro.product.vendor_dlkm.marketname=Redmi Note 11 5G
+
+# Build Info (Model)
+ro.product.odm.model=21091116AC
+ro.product.odm_dlkm.model=21091116AC
+ro.product.vendor_dlkm.model=21091116AC
