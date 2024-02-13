@@ -17,7 +17,7 @@ on property:odm.display_hbm=2
 on property:odm.display_hbm=3
     write /sys/class/leds/lcd-backlight/hbm 3
 
-on charger
+on property:init.svc.vendor.charger=running
     start mi_thermald
 
 on property:ro.factory_mode=1 && property:sys.boot_completed=1
