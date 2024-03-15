@@ -10,13 +10,13 @@ ro.product.system_ext.device=opal
 ro.product.vendor.device=opal
 
 # Build Info (Fingerprint)
-ro.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.product.system.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.product.system_ext.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.product.vendor.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.system.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.system_ext.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.vendor.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
+ro.product.system.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
+ro.product.system_ext.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
+ro.product.vendor.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
+ro.system.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
+ro.system_ext.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
+ro.vendor.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
 
 # Build Info (Marketname)
 ro.product.marketname=Redmi Note 11S 5G

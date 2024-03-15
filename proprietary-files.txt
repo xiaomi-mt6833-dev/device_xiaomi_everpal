@@ -1,4 +1,4 @@
-# All blobs are from Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys, unless pinned
+# Unpinned blobs from opal-user 13 TP1A.220624.014 V14.0.5.0.TGLMIXM release-keys
 
 # Audio
 vendor/firmware/aw87xxx_pid_59_fm_0.bin
@@ -450,7 +450,7 @@ vendor/firmware/lib3a.ccu
 -vendor/lib64/libvidhance.so
 -vendor/lib64/libwa_rtdof.so
 
-# Camera - from Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+# Camera - from evergo-user 13 TP1A.220624.014 V14.0.4.0.TGBINXM release-keys
 vendor/etc/camera/LDC_packdata_xiaomi.dat
 vendor/etc/camera/hdrcheckerparamsettings.yml
 vendor/etc/camera/libalfpc_tuning.bin
