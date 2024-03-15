@@ -10,6 +10,7 @@ ro.product.system_ext.device=evergo
 ro.product.vendor.device=evergo
 
 # Build Info (Fingerprint)
+ro.bootimage.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
 ro.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
 ro.product.system.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
 ro.product.system_ext.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
