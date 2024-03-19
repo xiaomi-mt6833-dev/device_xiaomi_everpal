@@ -33,3 +33,6 @@ ro.product.model=21091116AI
 ro.product.system.model=21091116AI
 ro.product.system_ext.model=21091116AI
 ro.product.vendor.model=21091116AI
+
+# Mod Device
+ro.product.mod_device=evergo_in_global

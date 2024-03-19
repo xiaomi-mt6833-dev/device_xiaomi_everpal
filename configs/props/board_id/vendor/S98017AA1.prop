@@ -43,3 +43,6 @@ ro.product.vendor.model=21091116AG
 # NFC
 ro.boot.product.hardware.sku=nfc
 ro.vendor.mtk_nfc_addon_support=1
+
+# Mod Device
+ro.product.mod_device=evergreen_global
