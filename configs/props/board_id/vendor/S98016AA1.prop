@@ -34,5 +34,8 @@ ro.product.system.model=21091116AC
 ro.product.system_ext.model=21091116AC
 ro.product.vendor.model=21091116AC
 
+# NFC
+ro.boot.product.hardware.sku=nonfc
+
 # Mod Device
 ro.product.mod_device=evergo_cn_global

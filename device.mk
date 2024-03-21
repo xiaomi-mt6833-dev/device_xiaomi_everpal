@@ -14,6 +14,10 @@ $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 PRODUCT_PACKAGES += \
     android.hardware.health@1.0.vendor:64
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc-service.st
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayEverpal \
