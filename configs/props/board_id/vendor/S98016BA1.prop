@@ -10,17 +10,17 @@ ro.product.system_ext.device=evergo
 ro.product.vendor.device=evergo
 
 # Build Info (Description)
-ro.build.description=evergo_in-user 12 SP1A.210812.016 V14.0.4.0.TGBINXM release-keys
+ro.build.description=evergo_in-user 13 TP1A.220624.014 V14.0.4.0.TGBINXM release-keys
 
 # Build Info (Fingerprint)
-ro.bootimage.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.product.system.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.product.system_ext.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.product.vendor.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.system.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.system_ext.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.vendor.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
+ro.bootimage.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.product.system.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.product.system_ext.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.product.vendor.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.system.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.system_ext.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.vendor.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
 
 # Build Info (Marketname)
 ro.product.marketname=Redmi Note 11T 5G

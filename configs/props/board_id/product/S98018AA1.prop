@@ -6,8 +6,8 @@
 ro.product.product.device=opal
 
 # Build Info (Fingerprint)
-ro.product.build.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
-ro.product.product.fingerprint=Redmi/opal_global/opal:12/SP1A.210812.016/V14.0.5.0.TGLMIXM:user/release-keys
+ro.product.build.fingerprint=Redmi/opal_global/opal:13/TP1A.220624.014/V14.0.5.0.TGLMIXM:user/release-keys
+ro.product.product.fingerprint=Redmi/opal_global/opal:13/TP1A.220624.014/V14.0.5.0.TGLMIXM:user/release-keys
 
 # Build Info (Marketname)
 ro.product.product.marketname=Redmi Note 11S 5G

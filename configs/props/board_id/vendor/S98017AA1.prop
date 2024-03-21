@@ -16,17 +16,17 @@ ro.product.system_ext.device=evergreen
 ro.product.vendor.device=evergreen
 
 # Build Info (Description)
-ro.build.description=evergreen_global-user 12 SP1A.210812.016 V14.0.3.0.TGLMIXM release-keys
+ro.build.description=evergreen_global-user 13 TP1A.220624.014 V14.0.3.0.TGLMIXM release-keys
 
 # Build Info (Fingerprint)
-ro.bootimage.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.product.system.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.product.system_ext.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.product.vendor.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.system.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.system_ext.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
-ro.vendor.build.fingerprint=POCO/evergreen_global/evergreen:12/SP1A.210812.016/V14.0.3.0.TGLMIXM:user/release-keys
+ro.bootimage.build.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
+ro.build.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.system.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.system_ext.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
+ro.product.vendor.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
+ro.system.build.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
+ro.system_ext.build.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
+ro.vendor.build.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
 
 # Build Info (Marketname)
 ro.product.marketname=POCO M4 Pro 5G

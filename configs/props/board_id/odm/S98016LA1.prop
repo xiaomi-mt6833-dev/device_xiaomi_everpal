@@ -13,12 +13,12 @@ ro.product.odm_dlkm.device=evergo
 ro.product.vendor_dlkm.device=evergo
 
 # Build Info (Fingerprint)
-ro.odm.build.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
-ro.odm_dlkm.build.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
-ro.product.odm.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
-ro.product.odm_dlkm.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
-ro.product.vendor_dlkm.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
-ro.vendor_dlkm.build.fingerprint=POCO/evergo_p_in/evergo:12/SP1A.210812.016/V14.0.3.0.TGBCNXM:user/release-keys
+ro.odm.build.fingerprint=POCO/evergo_p_in/evergo:13/TP1A.220624.014/V14.0.3.0.TGBCNXM:user/release-keys
+ro.odm_dlkm.build.fingerprint=POCO/evergo_p_in/evergo:13/TP1A.220624.014/V14.0.3.0.TGBCNXM:user/release-keys
+ro.product.odm.fingerprint=POCO/evergo_p_in/evergo:13/TP1A.220624.014/V14.0.3.0.TGBCNXM:user/release-keys
+ro.product.odm_dlkm.fingerprint=POCO/evergo_p_in/evergo:13/TP1A.220624.014/V14.0.3.0.TGBCNXM:user/release-keys
+ro.product.vendor_dlkm.fingerprint=POCO/evergo_p_in/evergo:13/TP1A.220624.014/V14.0.3.0.TGBCNXM:user/release-keys
+ro.vendor_dlkm.build.fingerprint=POCO/evergo_p_in/evergo:13/TP1A.220624.014/V14.0.3.0.TGBCNXM:user/release-keys
 
 # Build Info (Marketname)
 ro.product.odm.marketname=POCO M4 Pro 5G

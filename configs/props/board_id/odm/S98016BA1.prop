@@ -8,12 +8,12 @@ ro.product.odm_dlkm.device=evergo
 ro.product.vendor_dlkm.device=evergo
 
 # Build Info (Fingerprint)
-ro.odm.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.odm_dlkm.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.product.odm.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.product.odm_dlkm.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.product.vendor_dlkm.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
-ro.vendor_dlkm.build.fingerprint=Redmi/evergo_in/evergo:12/SP1A.210812.016/V14.0.4.0.TGBINXM:user/release-keys
+ro.odm.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.odm_dlkm.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.product.odm.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.product.odm_dlkm.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.product.vendor_dlkm.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.vendor_dlkm.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
 
 # Build Info (Marketname)
 ro.product.odm.marketname=Redmi Note 11T 5G
