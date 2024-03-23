@@ -1,0 +1,21 @@
+#
+# evergo (in) specific properties
+#
+
+# Build Info (Codename)
+ro.build.product=evergo
+ro.product.system.device=evergo
+
+# Build Info (Description)
+ro.build.description=evergo_in-user 13 TP1A.220624.014 V14.0.4.0.TGBINXM release-keys
+
+# Build Info (Fingerprint)
+ro.bootimage.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+ro.system.build.fingerprint=Redmi/evergo_in/evergo:13/TP1A.220624.014/V14.0.4.0.TGBINXM:user/release-keys
+
+# Build Info (Marketname)
+ro.product.system.marketname=Redmi Note 11T 5G
+
+# Build Info (Model)
+ro.product.system.model=21091116AI

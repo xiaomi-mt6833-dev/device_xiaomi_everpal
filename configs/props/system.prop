@@ -1,0 +1,2 @@
+# Device specific properties
+import /system/etc/props/${ro.boot.board_id}.prop

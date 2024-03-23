@@ -10,7 +10,6 @@ ro.product.product.device=evergreen
 
 # Build Info (Fingerprint)
 ro.product.build.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
-ro.product.product.fingerprint=POCO/evergreen_global/evergreen:13/TP1A.220624.014/V14.0.3.0.TGLMIXM:user/release-keys
 
 # Build Info (Marketname)
 ro.product.product.marketname=POCO M4 Pro 5G
