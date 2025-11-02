@@ -233,16 +233,12 @@ ro.vendor.vnd.current_rsc_path=/vendor/etc/rsc/GL
 telephony.active_modems.max_count=2
 
 # Surface Flinger
+debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_adpf_cpu_hint=true
-debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.sf.frame_rate_multiple_threshold=90
-debug.sf.high_fps_early_gl_phase_offset_ns=-5000000
-debug.sf.high_fps_early_phase_offset_ns=-5000000
-debug.sf.high_fps_late_app_phase_offset_ns=1000000
-debug.sf.high_fps_late_sf_phase_offset_ns=-5000000
 debug.sf.treat_170m_as_sRGB=1
 persist.sys.sf.color_mode=9
 persist.sys.sf.color_saturation=1.0
@@ -257,6 +253,15 @@ ro.surface_flinger.set_idle_timer_ms=3000
 ro.surface_flinger.set_touch_timer_ms=3000
 ro.surface_flinger.supports_background_blur=1
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
+
+# Surface Flinger (Durations)
+debug.sf.early.app.duration=15600000
+debug.sf.early.sf.duration=14600000
+debug.sf.earlyGl.app.duration=15600000
+debug.sf.earlyGl.sf.duration=14600000
+debug.sf.late.app.duration=15600000
+debug.sf.late.sf.duration=14600000
+debug.sf.use_phase_offsets_as_durations=1
 
 # Trusted Execution Environment (TEE)
 ro.vendor.mtk_microtrust_tee_support=1

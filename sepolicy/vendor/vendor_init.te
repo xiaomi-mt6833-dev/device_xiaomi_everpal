@@ -7,3 +7,6 @@ set_prop(vendor_init, vendor_camera_prop)
 
 # PQ
 set_prop(vendor_init, vendor_mtk_pq_prop)
+
+# Power
+rw_dir_file(vendor_init, sysfs_ged)
