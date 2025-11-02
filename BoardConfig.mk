@@ -187,3 +187,5 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/everpal/BoardConfigVendor.mk
+# Inherit RisingOS vendor board configs if available
+-include vendor/lineage/config/BoardConfigCommon.mk

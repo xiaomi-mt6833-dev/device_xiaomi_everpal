@@ -277,3 +277,14 @@ ro.vendor.wifi.sap.interface=ap0
 
 # Zygote
 zygote.critical_window.minute=10
+
+# RisingOS specific properties
+ro.rising.version=RisingOS-Revived
+ro.rising.build.version=16.0
+ro.rising.maintainer=YourName
+ro.rising.chipset=MediaTek_Dimensity_810_5G
+
+# Additional system properties
+persist.sys.usb.config=mtp,adb
+ro.boot.hardware.revision=10
+ro.build.fingerprint=Xiaomi/everpal/everpal:16:RQ3A.210905.001/release-keys

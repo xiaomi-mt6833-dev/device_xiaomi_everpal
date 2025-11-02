@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Define remotes for your repos -->
+  <remote name="xiaomi-mt6833-dev" fetch="https://github.com/xiaomi-mt6833-dev" />
+  <remote name="addster09" fetch="https://github.com/Addster09" />
+  <remote name="techyminati" fetch="https://github.com/techyminati" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS" />
+  <remote name="xiaomi-mediatek-devs" fetch="https://github.com/xiaomi-mediatek-devs" />
+  <remote name="himanshuksr0007" fetch="https://github.com/himanshuksr0007" />
+
+  <!-- Device tree (your LineageOS 23 device tree, should be compatible) -->
+  <project name="device_xiaomi_everpal" 
+           path="device/xiaomi/everpal" 
+           remote="xiaomi-mt6833-dev" 
+           revision="lineage-23.0" />
+
+  <!-- Vendor tree (proprietary blobs) -->
+  <project name="vendor_xiaomi_everpal" 
+           path="vendor/xiaomi/everpal" 
+           remote="xiaomi-mt6833-dev" 
+           revision="lineage-23.0" />
+
+  <!-- Kernel source -->
+  <project name="android_kernel_xiaomi_mt6833" 
+           path="kernel/xiaomi/mt6833" 
+           remote="addster09" 
+           revision="main" />
+
+  <!-- MediaTek IMS (telephony/calls) -->
+  <project name="android_vendor_mediatek_ims" 
+           path="vendor/mediatek/ims" 
+           remote="techyminati" 
+           revision="main" />
+
+  <!-- MediaTek SEPolicy (security) -->
+  <project name="android_device_mediatek_sepolicy_vndr" 
+           path="device/mediatek/sepolicy_vndr" 
+           remote="lineageos" 
+           revision="lineage-23.0" />
+
+  <!-- MediaTek Hardware Abstraction Layer -->
+  <project name="android_hardware_mediatek" 
+           path="hardware/mediatek" 
+           remote="xiaomi-mediatek-devs" 
+           revision="lineage-23.0" />
+
+  <!-- Xiaomi Hardware Abstractions -->
+  <project name="android_hardware_xiaomi" 
+           path="hardware/xiaomi" 
+           remote="xiaomi-mediatek-devs" 
+           revision="lineage-23.0" />
+</manifest>
