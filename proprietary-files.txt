@@ -1010,6 +1010,11 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 # Graphics (Thread unwinding) - from duchamp_global-user 15 AP3A.240905.015.A2 OS2.0.205.0.VNLMIXM release-keys
 vendor/lib64/libladder.so|db8bdb58e6f4a4250bb5f471fbe8ea6a12897c22
 
+# Hotword Enrollment
+product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
+product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # IMS
 vendor/bin/hw/vtservice_hidl
 vendor/etc/init/init.vtservice_hidl.rc
